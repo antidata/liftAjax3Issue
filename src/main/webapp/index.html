@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <title>Home</title>
+  </head>
+  <body class="lift:content_id=main">
+    <div id="main" class="lift:surround?with=default;at=content">
+      <h2>Issue when the server return boolean value false</h2>
+      <p>
+	<span class="lift:helloWorld.howdy">
+	</span>
+        <div ng-app>
+          <div ng-controller="BooleanIssueCtrl">
+          <button ng-click="setBool(true)">Send True and server return true</button>
+          <button ng-click="setBool(false)">Send False and server return false</button>
+    </div></div>
+      </p>
+    </div>
+  </body>
+</html>
